@@ -1,0 +1,5 @@
+name="imagegen"
+compatibility_date = "2024-12-30"
+assets={directory="build"}
+account_id = "5a4d226e650fa89b080ad28838877690"
+

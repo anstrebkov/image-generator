@@ -8,13 +8,16 @@
     "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^11.0.3",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "wrangler": "^3.103.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preview:worker": "npm run build && wrangler dev",
+    "deploy: worker": "npm run build && wrangler deploy"
   },
   "eslintConfig": {
     "extends": [
