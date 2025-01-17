@@ -79,7 +79,7 @@ const ImageGenerator = () => {
 
       // Таймаут для запроса к API генерации изображений
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 20000); // Таймаут 10 секунд
+      const timeoutId = setTimeout(() => controller.abort(), 5000); // Таймаут 10 секунд
 
       const response = await fetch('https://app.stronga791alice.workers.dev', {
         method: 'POST',
